@@ -1,0 +1,107 @@
+.navbar a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.
+
+body {
+    font-family: Arial cursive;
+    padding: 10px;
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.general-header {
+    background: #ffffff;
+    text-align: center;
+    padding: 50px;
+    font-family: Times cursive;
+    color: #000;
+}
+
+.block-news {
+    float: left;
+    width: 75%;
+}
+
+.general-right-block {
+    float: right;
+    width: calc(25% - 20px);
+    background: #ffffff;
+    margin: 20px 0 20px 20px;
+    text-align: center;
+}
+
+.general-article-block {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.general-block::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ffffff;
+    margin-top: 20px;
+}
+
+.general-right-block img {
+    height: 150px
+}
+
+.button-page img{
+    width: 80px;
+    height: 40px;
+}
+
+iframe {
+    height: 3000px;
+}
+
+.news-article {
+    text-align: justify;
+}
+
+.news-article-image {
+    height: auto;
+    width: 300px;
+    padding: 10px 10px 5px 5px;
+}
+
+#DogsNewsPitImg {
+    height: auto;
+    width: 954px;
+}
+
+#LionNewsImg {
+    height: auto;
+    width: 954px;
+}
+
+#OwlNewsImg {
+    height: auto;
+    width: 954px;
+}
+
+.carousel-item {
+    height: 620px;
+}
+
+@media screen and (min-width: 400px) and (max-width: 1200px) {
+     body .block-news, .general-right-block {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/*@media screen and (min-width:  400px) and (max-width: 1300px) {*/
+/*    .carousel-item {*/
+/*        height: 620px;*/
+/*    }*/
+/*}*/
