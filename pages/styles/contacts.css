@@ -1,0 +1,17 @@
+.general-block {
+    margin-top: 45px;
+}
+
+#mapContact {
+    height: 1000px;
+    width: 950px;
+}
+
+li {
+    list-style: none;
+    line-height: 3;
+}
+
+.contact-image {
+    height: 80px !important;
+}
